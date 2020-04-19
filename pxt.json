@@ -1,0 +1,23 @@
+{
+    "name": "smartCar",
+    "version": "1.1.0",
+    "description": "Extension for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
+        "smartcar_IR":  "github.com/chinyy/cBit"
+	
+
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/smartcar-strings.json"
+
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
