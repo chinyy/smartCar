@@ -1,6 +1,5 @@
 /*
 R
-modified from liusen
 load dependency
 "smartcar": "file:../pxt-smartcar"
 */

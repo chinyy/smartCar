@@ -1,12 +1,12 @@
 {
-    "name": "smartCar",
+    "name": "smartcar",
     "version": "1.1.0",
     "description": "Extension for micro:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
-        "smartcar_IR":  "github.com/chinyy/cBit"
+        "smartcar_IR":  "github.com/chinyy/smartcar"
 	
 
     },
