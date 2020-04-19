@@ -3,6 +3,8 @@
         "target": "es5",
         "noImplicitAny": true,
         "outDir": "built",
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
         "rootDir": "."
     },
     "exclude": ["pxt_modules/**/*test.ts"]
