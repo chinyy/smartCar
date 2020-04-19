@@ -1,13 +1,13 @@
 /*
 R
 load dependency
-"smartcar": "file:../pxt-smartcar"
+"smartCar": "file:../pxt-smartCar"
 */
 
 
 
 //% color="#C814B8" weight=25 icon="\uf1d4"
-namespace smartcar_显示类 {
+namespace smartCar_显示类 {
     
     export enum enColor {
 
@@ -37,7 +37,7 @@ namespace smartcar_显示类 {
         ON =1
     }
 
-    //% blockId=smartcar_LED1 block="LED灯|引脚 %pin|状态 %value"
+    //% blockId=smartCar_LED1 block="LED灯|引脚 %pin|状态 %value"
     //% weight=5
     //% blockGap=8
     //% color="#C814B8"
@@ -48,7 +48,7 @@ namespace smartcar_显示类 {
 
     }
 
-    //% blockId=smartcar_LED2 block="LED灯|引脚 %pin|亮度 %value"
+    //% blockId=smartCar_LED2 block="LED灯|引脚 %pin|亮度 %value"
     //% weight=4
     //% blockGap=8
     //% color="#C814B8"
@@ -60,7 +60,7 @@ namespace smartcar_显示类 {
 
     }
 
-    //% blockId=smartcar_BreathLED block="呼吸灯|引脚 %pin"
+    //% blockId=smartCar_BreathLED block="呼吸灯|引脚 %pin"
     //% weight=3
     //% blockGap=8
     //% color="#C814B8"
@@ -81,7 +81,7 @@ namespace smartcar_显示类 {
 
     }
 
-    //% blockId=smartcar_RGB block="RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3"
+    //% blockId=smartCar_RGB block="RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3"
     //% weight=2
     //% blockGap=8
     //% color="#C814B8"
@@ -94,7 +94,7 @@ namespace smartcar_显示类 {
         pins.analogWritePin(pin3, value3 * 1024 / 256);
 
     }
-    //% blockId=smartcar_RGB2 block="RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|显示 %value"
+    //% blockId=smartCar_RGB2 block="RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|显示 %value"
     //% weight=1
     //% blockGap=8
     //% color="#C814B8"
@@ -160,7 +160,7 @@ namespace smartcar_显示类 {
  ****************************************************************************************************************************************/
 
 //% color="#87CEEB" weight=24 icon="\uf1b6"
-namespace smartcar_传感器类 {
+namespace smartCar_传感器类 {
 
     export enum enVoice {
         //% blockId="Voice" block="有声音"
@@ -177,7 +177,7 @@ namespace smartcar_传感器类 {
     }
     
 
-    //% blockId=smartcar_Voice_Sensor block="声音传感器|引脚 %pin|返回 %value"
+    //% blockId=smartCar_Voice_Sensor block="声音传感器|引脚 %pin|返回 %value"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -202,7 +202,7 @@ namespace smartcar_传感器类 {
             control.waitMicros(13);
         }
     }
-    //% blockId=smartcar_IR_Sensor block="红外传感器|引脚 %pin|  |%value|障碍物"
+    //% blockId=smartCar_IR_Sensor block="红外传感器|引脚 %pin|  |%value|障碍物"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -220,7 +220,7 @@ namespace smartcar_传感器类 {
 
     }
 
-    //% blockId=smartcar_IR_Send block="红外发射|引脚 %pin"
+    //% blockId=smartCar_IR_Send block="红外发射|引脚 %pin"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -232,7 +232,7 @@ namespace smartcar_传感器类 {
 
     }
    
-    //% blockId=smartcar_ultrasonic block="超声波|发射管脚 %Trig|接收管脚 %Echo"
+    //% blockId=smartCar_ultrasonic block="超声波|发射管脚 %Trig|接收管脚 %Echo"
     //% color="#87CEEB"
     //% weight=100
     //% blockGap=10
@@ -258,7 +258,7 @@ namespace smartcar_传感器类 {
  ****************************************************************************************************************************************/
 
 //% color="#808080" weight=23 icon="\uf11c"
-namespace smartcar_输入类 {
+namespace smartCar_输入类 {
 
     export enum enRocker {
         //% blockId="Nostate" block="无"
@@ -288,7 +288,7 @@ namespace smartcar_输入类 {
         Realse = 1
     }
 
-    //% blockId=smartcar_TouchPad block="触摸开关|引脚 %pin|返回 %value"
+    //% blockId=smartCar_TouchPad block="触摸开关|引脚 %pin|返回 %value"
     //% weight=100
     //% blockGap=10
     //% color="#808080"
@@ -304,7 +304,7 @@ namespace smartcar_输入类 {
         }
 
     }
-    //% blockId=smartcar_Rocker block="遥杆|VRX %pin1|VRY %pin2|SW %pin3|返回 %value"
+    //% blockId=smartCar_Rocker block="遥杆|VRX %pin1|VRY %pin2|SW %pin3|返回 %value"
     //% weight=100
     //% blockGap=10
     //% color="#808080"
@@ -346,7 +346,7 @@ namespace smartcar_输入类 {
 
     }
 
-    //% blockId=smartcar_Button block="按键|引脚 %pin|返回 %value"
+    //% blockId=smartCar_Button block="按键|引脚 %pin|返回 %value"
     //% weight=100
     //% blockGap=10
     //% color="#808080"
@@ -369,7 +369,7 @@ namespace smartcar_输入类 {
  ****************************************************************************************************************************************/
 
 //% color="#D2691E" weight=22 icon="\uf001"
-namespace smartcar_音乐类 {
+namespace smartCar_音乐类 {
     export enum enBuzzer {
 
         //% blockId="NoBeep" block="响"
@@ -378,7 +378,7 @@ namespace smartcar_音乐类 {
         Beep
     }
 
-    //% blockId=smartcar_Buzzer block="有源蜂鸣器|引脚 %pin|值 %value"
+    //% blockId=smartCar_Buzzer block="有源蜂鸣器|引脚 %pin|值 %value"
     //% weight=100
     //% blockGap=10 
     //% color="#D2691E"
@@ -398,9 +398,9 @@ namespace smartcar_音乐类 {
  ****************************************************************************************************************************************/
 
 //% color="#0000CD" weight=21 icon="\uf185"
-namespace smartcar_电机类 {
+namespace smartCar_电机类 {
 
-    //% blockId=smartcar_Fan block="风扇|引脚 %pin|速度 %value"
+    //% blockId=smartCar_Fan block="风扇|引脚 %pin|速度 %value"
     //% weight=100
     //% blockGap=10
     //% color="#0000CD"
@@ -412,7 +412,7 @@ namespace smartcar_电机类 {
 
     }
 
-    //% blockId=smartcar_Servo block="舵机|引脚 %pin|角度 %value"
+    //% blockId=smartCar_Servo block="舵机|引脚 %pin|角度 %value"
     //% weight=100
     //% blockGap=10
     //% color="#0000CD"
@@ -427,7 +427,7 @@ namespace smartcar_电机类 {
 }
 
 //% color="#006400" weight=20 icon="\uf1b9"
-namespace smartcar_小车类 {
+namespace smartCar_小车类 {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
@@ -822,7 +822,7 @@ namespace smartcar_小车类 {
      * *****************************************************************
      * @param index
      */
-    //% blockId=smartcar_RGB_Car_Big2 block="小车RGB探照灯|选择车灯颜色 %value"
+    //% blockId=smartCar_RGB_Car_Big2 block="小车RGB探照灯|选择车灯颜色 %value"
     //% weight=101
     //% blockGap=10
     //% color="#C814B8"
@@ -880,7 +880,7 @@ namespace smartcar_小车类 {
             }
         }
     }
-    //% blockId=smartcar_RGB_Car_Big block="小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3"
+    //% blockId=smartCar_RGB_Car_Big block="小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3"
     //% weight=100
     //% blockGap=10
     //% color="#C814B8"
@@ -905,7 +905,7 @@ namespace smartcar_小车类 {
 
     }
 
-    //% blockId=smartcar_RGB_Car_Program block="七彩流水灯"
+    //% blockId=smartCar_RGB_Car_Program block="七彩流水灯"
     //% weight=99
     //% blockGap=10
     //% color="#C814B8"
@@ -919,7 +919,7 @@ namespace smartcar_小车类 {
     }
 
 
-    //% blockId=smartcar_ultrasonic_car block="超声波返回(cm)"
+    //% blockId=smartCar_ultrasonic_car block="超声波返回(cm)"
     //% color="#006400"
     //% weight=98
     //% blockGap=10
@@ -939,7 +939,7 @@ namespace smartcar_小车类 {
         return d / 58;
     }
 
-    //% blockId=smartcar_Music_Car block="小车音乐播放|%index"
+    //% blockId=smartCar_Music_Car block="小车音乐播放|%index"
     //% weight=97
     //% blockGap=10
     //% color="#006400"
@@ -968,7 +968,7 @@ namespace smartcar_小车类 {
             case enMusic.power_down: music.beginMelody(music.builtInMelody(Melodies.PowerDown), MelodyOptions.Once); break;
         }
     }
-    //% blockId=smartcar_Servo_Car block="小车舵机|编号 %num|角度 %value"
+    //% blockId=smartCar_Servo_Car block="小车舵机|编号 %num|角度 %value"
     //% weight=96
     //% blockGap=10
     //% color="#006400"
@@ -983,7 +983,7 @@ namespace smartcar_小车类 {
 
     }
 
-    //% blockId=smartcar_Avoid_Sensor block="避障传感器|检测到 %value"
+    //% blockId=smartCar_Avoid_Sensor block="避障传感器|检测到 %value"
     //% weight=95
     //% blockGap=10
     //% color="#006400"
@@ -1023,7 +1023,7 @@ namespace smartcar_小车类 {
         return temp;
 
     }
-    //% blockId=smartcar_Line_Sensor block="巡线传感器|位置 %direct|检测到 %value"
+    //% blockId=smartCar_Line_Sensor block="巡线传感器|位置 %direct|检测到 %value"
     //% weight=94
     //% blockGap=10
     //% color="#006400"
@@ -1068,7 +1068,7 @@ namespace smartcar_小车类 {
         return temp;
 
     }
-    //% blockId=smartcar_CarCtrl block="小车控制|%index"
+    //% blockId=smartCar_CarCtrl block="小车控制|%index"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
@@ -1084,7 +1084,7 @@ namespace smartcar_小车类 {
             case CarState.Car_SpinRight: Car_spinright(255); break;
         }
     }
-    //% blockId=smartcar_CarCtrlSpeed block="小车控制|%index|速度 %speed"
+    //% blockId=smartCar_CarCtrlSpeed block="小车控制|%index|速度 %speed"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
@@ -1101,7 +1101,7 @@ namespace smartcar_小车类 {
             case CarState.Car_SpinRight: Car_spinright(speed); break;
         }
     }
-    //% blockId=smartcar_AloneCtrlSpeed block="单独电机|%index|速度 %speed"
+    //% blockId=smartCar_AloneCtrlSpeed block="单独电机|%index|速度 %speed"
     //% weight=91
     //% blockGap=10
     //% speed.min=0 speed.max=255
