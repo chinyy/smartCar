@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
-        "smartcar_IR":  "github.com/chinyy/smartcar"
+        "smartcar_IR":  "github:chinyy/smartcar"
 	
 
     },
