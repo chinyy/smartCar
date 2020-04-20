@@ -1,12 +1,3 @@
-/*
-R
-modified from chinyy
-load dependency
-"smartcar": "file:../pxt-smartcar"
-*/
-
-
-
 //% color="#C814B8" weight=25 icon="\uf1d4"
 namespace smartcar_显示类 {
     
